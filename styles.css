@@ -1,0 +1,159 @@
+/* Reset some default browser styles */
+html {
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Header styles */
+header {
+	background-color: #222222;
+	color: #fff;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+
+}
+
+/* Navbar styles */
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center; /* Vertically align items */
+	padding: 0 0;
+}
+
+#navbar ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+}
+
+#navbar li {
+	padding: 0 10px;
+}
+
+#navbar a:hover,
+#navbar a:focus {
+	color: #1E90FF;
+}
+
+#navbar a {
+	color: #FFFFFF;
+}
+
+/* Sections */
+#section1,
+#section2,
+#section3,
+#bottom {
+	padding: 50px 0 50px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'montserrat';
+}
+
+/* Brand name styles */
+.brand-name {
+	font-family: "montserrat", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #ffffff;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+
+/* Brand name hover effect (optional) */
+.brand-name:hover {
+	color: #007bff;
+	transition: color 0.3s;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background: linear-gradient(
+		to right,
+		#ccc,
+		#333,
+		#ccc
+	); /* Replace these colors with your desired gradient */
+	margin: 2% 0; /* Adjust margin as needed */
+}
+
+body {
+	margin: 0;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-weight: normal;
+}
+
+footer {
+	background-color: #1A1A1A;
+	color: #B0B0B0;
+	height: 350px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    font-family: 'Roboto';
+    font-size: large;
+	vertical-align: top;
+}
+
+.footer-sections { /* Center text horizontally */
+	flex: 1; /* Distribute available space evenly among sections */
+    text-align: center;
+    position: relative;
+}
+
+footer ul{
+    list-style-type: none;
+	padding: 0;
+}
+
+main {
+	text-indent: 5px;
+	text-align: center;
+	background-color: #121212;
+	color: #FFFFFF;
+}
+
+ol {
+    list-style-type: none;
+}
+
+p {
+	display: inline-block;
+	vertical-align: middle;
+	width: 500px;
+	height: 100px;
+	
+	
+}
+
+/* .logo {
+	position: absolute;
+	left: 10%;
+} */
+
+footer a {
+	color: #1E90FF;
+}
+
+#content-area {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    width: 700px;
+    margin-top: -20px;
+    margin-left: 10%;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+}
+
+#content-area a {
+	color: #1E90FF;
+}
